@@ -109,3 +109,18 @@ p {
 .card-col:last-child .card {
   border-top: 5px solid var(--Blue);
 }
+
+@media screen and (max-width: 800px) {
+  .card-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-col {
+    margin-bottom: 2rem;
+  }
+
+  .card {
+    max-width: 18rem;
+  }
+}
