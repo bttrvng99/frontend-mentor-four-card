@@ -111,6 +111,18 @@ p {
 }
 
 @media screen and (max-width: 800px) {
+  main {
+    margin: 2.5rem 0 1rem;
+  }
+
+  .subtitle {
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+
   .card-section {
     display: flex;
     flex-direction: column;
